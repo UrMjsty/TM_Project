@@ -951,6 +951,7 @@ GameObject:
   - component: {fileID: 1202491145}
   - component: {fileID: 1202491144}
   - component: {fileID: 1202491147}
+  - component: {fileID: 1202491148}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -971,7 +972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 384.16672, y: 525.4949}
+  scrollPos: {x: 298.11978, y: 81.30939}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 370.40002
@@ -8976,6 +8977,7 @@ MonoBehaviour:
   - {fileID: 1202491135}
   - {fileID: 1202491137}
   - {fileID: 1202491116}
+  - {fileID: 1202491148}
   - {fileID: 1202491115}
   - {fileID: 1202491113}
   - {fileID: 1202491112}
@@ -14905,9 +14907,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You manage to get inside the tower and climb the curving flight of
     stairs to the top. You find a wooden door that looks like it\u2019s barely holding
-    onto it\u2019s hinges. Pushing it open, you find the princess, alone, sitting
-    on the old wooden bed. She startles as you enter and stands up, putting her arms
-    in front of her defensively."
+    onto it\u2019s hinges."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16761,6 +16761,35 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1202491148
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 506
+  indentLevel: 0
+  storyText: Pushing it open, you find the princess, alone, sitting on the old wooden
+    bed. She startles as you enter and stands up, putting her arms in front of her
+    defensively.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1222919023
 GameObject:
   m_ObjectHideFlags: 0
