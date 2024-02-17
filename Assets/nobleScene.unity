@@ -814,17 +814,21 @@ GameObject:
   - component: {fileID: 1202490771}
   - component: {fileID: 1202490770}
   - component: {fileID: 1202490769}
-  - component: {fileID: 1202490768}
-  - component: {fileID: 1202490767}
-  - component: {fileID: 1202490766}
-  - component: {fileID: 1202490765}
-  - component: {fileID: 1202490764}
-  - component: {fileID: 1202490763}
   - component: {fileID: 1202490762}
   - component: {fileID: 1202490761}
   - component: {fileID: 1202490760}
   - component: {fileID: 1202490844}
   - component: {fileID: 1202490845}
+  - component: {fileID: 1202490846}
+  - component: {fileID: 1202490847}
+  - component: {fileID: 1202490850}
+  - component: {fileID: 1202490848}
+  - component: {fileID: 1202490849}
+  - component: {fileID: 1202490852}
+  - component: {fileID: 1202490851}
+  - component: {fileID: 1202490855}
+  - component: {fileID: 1202490854}
+  - component: {fileID: 1202490853}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -845,19 +849,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -294.67526, y: 254.40845}
+  scrollPos: {x: -346.4353, y: 362.58432}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.7030162
+  blockViewHeight: 404.8
+  zoom: 0.67001766
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1202490680}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1202490694}
@@ -917,7 +920,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1172.2264
     y: -181.1617
-    width: 102.63036
+    width: 102.53593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1248,7 +1251,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1531.417
     y: -205.27985
-    width: 101.207924
+    width: 103.72993
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1277,8 +1280,8 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   storyText: "The throne room is crowded as you enter and a cacophony of whispers
-    runs\r through the space. There are murmurs about the princess and a great white\r\ndragon.
-    \r"
+    runs\r through the space. There are murmurs about the princess and a great white\r
+    dragon. \r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1335,7 +1338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 751.1901
     y: -88.45487
-    width: 82.71617
+    width: 84.62595
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1344,6 +1347,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1202490845}
   commandList:
+  - {fileID: 1202490853}
+  - {fileID: 1202490846}
   - {fileID: 1202490679}
   - {fileID: 1202490674}
   - {fileID: 1202490705}
@@ -1404,7 +1409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 585.9183
     y: -25.238739
-    width: 94.09571
+    width: 95.37193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1413,6 +1418,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1202490852}
+  - {fileID: 1202490851}
   - {fileID: 1202490698}
   - {fileID: 1202490697}
   - {fileID: 1202490696}
@@ -1467,7 +1474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 976.40424
     y: -3.2272491
-    width: 88.405945
+    width: 88.20795
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1476,6 +1483,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1202490850}
+  - {fileID: 1202490847}
   - {fileID: 1202490810}
   - {fileID: 1202490809}
   - {fileID: 1202490808}
@@ -2398,7 +2407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.63065
     y: 67.8584
-    width: 106.89769
+    width: 108.50592
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2427,7 +2436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 175.4988
     y: 33.1324
-    width: 105.47525
+    width: 107.31192
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2455,7 +2464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432.60324
     y: 107.51639
-    width: 108.32013
+    width: 109.69992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2553,175 +2562,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1202490763
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 195
-  indentLevel: 0
-  storyText: "We will provide you with a horse, of course. Bring\r back my daughter
-    safely, and you will be rewarded."
-  description: 
-  character: {fileID: 2029969771}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490764
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 194
-  indentLevel: 0
-  storyText: "Very well. You will embark on your journey at once! The last\r sighting
-    of the dragon was in the town of Redrun, a few hours\r north of here."
-  description: 
-  character: {fileID: 2029969771}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490765
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 193
-  indentLevel: 0
-  storyText: Yes, your Majesty.
-  description: 
-  character: {fileID: 469272588}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490766
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 192
-  indentLevel: 0
-  storyText: "There you are, Lord/Lady (Name). Did you get everything you\r require?"
-  description: 
-  character: {fileID: 2029969771}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490767
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 191
-  indentLevel: 0
-  storyText: "You make your way back to the throne room where the crowd has\r dispersed.
-    The King is waiting for you."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490768
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 879.0614
-    y: 602.52673
-    width: 158.10562
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 210
-  blockName: Noble-Wizard-King
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1202490767}
-  - {fileID: 1202490766}
-  - {fileID: 1202490765}
-  - {fileID: 1202490764}
-  - {fileID: 1202490763}
-  suppressAllAutoSelections: 0
 --- !u!114 &1202490769
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2848,7 +2688,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Return to the King
   description: 
-  targetBlock: {fileID: 1202490768}
+  targetBlock: {fileID: 1202490775}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2899,17 +2739,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 178.72217
-    y: 463.45605
-    width: 163.79538
+    x: 515.5565
+    y: 531.73334
+    width: 116.86391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 209
-  blockName: Noble-Captain-King
+  blockName: Noble-King
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1202490855}
+  - {fileID: 1202490854}
   - {fileID: 1202490774}
   - {fileID: 1202490772}
   - {fileID: 1202490771}
@@ -3014,7 +2856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 883.42975
     y: 505.112
-    width: 162.37294
+    width: 162.23584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3026,6 +2868,7 @@ MonoBehaviour:
   - {fileID: 1202490778}
   - {fileID: 1202490777}
   - {fileID: 1202490773}
+  - {fileID: 1202490848}
   suppressAllAutoSelections: 0
 --- !u!114 &1202490780
 MonoBehaviour:
@@ -3225,7 +3068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 876.6845
     y: 434.45197
-    width: 148.14853
+    width: 147.90787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3386,7 +3229,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 889.0625
     y: 345.4134
-    width: 135.34653
+    width: 134.77388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3492,7 +3335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 910.88403
     y: 253.67746
-    width: 123.966995
+    width: 122.8339
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3520,7 +3363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What potions can you give me?
   description: 
   targetBlock: {fileID: 1202490797}
   hideIfVisited: 0
@@ -3545,10 +3388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: 'Settle down, adventurer. I only wish to spare you
-
-    unnecessary
-    harm.'
+  storyText: Settle down, adventurer. I only wish to spare you unnecessary harm.
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -3577,7 +3417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 990.20624
     y: 89.95729
-    width: 101.207924
+    width: 101.341934
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3603,7 +3443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What potions can you give me?
   description: 
   targetBlock: {fileID: 1202490797}
   hideIfVisited: 0
@@ -3628,9 +3468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  storyText: 'For the good of the kingdom and the princess, I hope
-
-    you are right'
+  storyText: For the good of the kingdom and the princess, I hope you are right
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -3659,7 +3497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 859.07404
     y: 95.65216
-    width: 99.78548
+    width: 100.147934
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3685,7 +3523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What potions can you give me?
   description: 
   targetBlock: {fileID: 1202490797}
   hideIfVisited: 0
@@ -3710,10 +3548,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: 'No one has faced her and been able to tell the
-
-    tale. That means
-    you are either very brave, or very stupid.'
+  storyText: No one has faced her and been able to tell the tale. That means you
+    are either very brave, or very stupid.
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -3770,7 +3606,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1120.67
     y: 95.930756
-    width: 102.63036
+    width: 102.53593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3852,10 +3688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: 'You make your way up to the tallest tower of the castle. Monrik, the
-    court
-
-    wizard is waiting for you there'
+  storyText: You make your way up to the tallest tower of the castle. Monrik, the
+    court wizard is waiting for you there
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3938,7 +3772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.10913
     y: 371.93317
-    width: 153.83829
+    width: 155.07185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3950,6 +3784,7 @@ MonoBehaviour:
   - {fileID: 1202490812}
   - {fileID: 1202490811}
   - {fileID: 1202490776}
+  - {fileID: 1202490849}
   suppressAllAutoSelections: 0
 --- !u!114 &1202490814
 MonoBehaviour:
@@ -4097,7 +3932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.48692
     y: 282.89465
-    width: 141.03632
+    width: 141.93787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4228,7 +4063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What armor can you give me?
   description: 
   targetBlock: {fileID: 1202490826}
   hideIfVisited: 0
@@ -4253,7 +4088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What armor can you give me?
   description: 
   targetBlock: {fileID: 1202490826}
   hideIfVisited: 0
@@ -4280,7 +4115,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227.30833
     y: 191.15857
-    width: 129.65677
+    width: 129.9979
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4308,7 +4143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 128
   indentLevel: 0
-  text: What weapons can you give me?
+  text: What armor can you give me?
   description: 
   targetBlock: {fileID: 1202490826}
   hideIfVisited: 0
@@ -4582,7 +4417,7 @@ MonoBehaviour:
   itemId: 117
   indentLevel: 0
   storyText: "This kingdom needs a hero, to\r rescue her and bring her back safely.
-    Of course, if you succeed, you will\r\nreceive a large reward"
+    Of course, if you succeed, you will\r receive a large reward"
   description: 
   character: {fileID: 2029969771}
   portrait: {fileID: 0}
@@ -4756,7 +4591,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1202490845
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4768,6 +4603,184 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1202490680}
   suppressBlockAutoSelect: 0
+--- !u!114 &1202490846
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 938923e2e4855ff41a5c14e15fbfc583, type: 3}
+  atTime: 5
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1202490847
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: a16c0ef28d5f93c4fa16772835b72da8, type: 3}
+  atTime: 5
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1202490848
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 215
+  indentLevel: 0
+  text: ' Go to captain'
+  description: 
+  targetBlock: {fileID: 1202490685}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1202490849
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 216
+  indentLevel: 0
+  text: Go to wizard
+  description: 
+  targetBlock: {fileID: 1202490687}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1202490850
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+--- !u!114 &1202490851
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: e773377d85d58854a8942fc1a1868e0e, type: 3}
+  atTime: 90
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1202490852
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+--- !u!114 &1202490853
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 221
+  indentLevel: 0
+--- !u!114 &1202490854
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 220
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 938923e2e4855ff41a5c14e15fbfc583, type: 3}
+  atTime: 15
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1202490855
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 219
+  indentLevel: 0
 --- !u!1 &1222919023
 GameObject:
   m_ObjectHideFlags: 0
