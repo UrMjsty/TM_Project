@@ -715,7 +715,6 @@ GameObject:
   - component: {fileID: 1202490686}
   - component: {fileID: 1202490685}
   - component: {fileID: 1202490698}
-  - component: {fileID: 1202490694}
   - component: {fileID: 1202490693}
   - component: {fileID: 1202490692}
   - component: {fileID: 1202490691}
@@ -830,6 +829,17 @@ GameObject:
   - component: {fileID: 1202490854}
   - component: {fileID: 1202490853}
   - component: {fileID: 1202490856}
+  - component: {fileID: 1202490867}
+  - component: {fileID: 1202490866}
+  - component: {fileID: 1202490865}
+  - component: {fileID: 1202490864}
+  - component: {fileID: 1202490862}
+  - component: {fileID: 1202490861}
+  - component: {fileID: 1202490860}
+  - component: {fileID: 1202490859}
+  - component: {fileID: 1202490858}
+  - component: {fileID: 1202490857}
+  - component: {fileID: 1202490868}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -850,11 +860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -143.59105, y: -207.7872}
+  scrollPos: {x: 276.75195, y: 471.61038}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404.8
-  zoom: 1
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -864,10 +874,20 @@ MonoBehaviour:
   selectedBlocks: []
   selectedCommands: []
   variables:
-  - {fileID: 1202490694}
   - {fileID: 1202490693}
   - {fileID: 1202490692}
   - {fileID: 1202490691}
+  - {fileID: 1202490867}
+  - {fileID: 1202490866}
+  - {fileID: 1202490865}
+  - {fileID: 1202490864}
+  - {fileID: 1202490868}
+  - {fileID: 1202490862}
+  - {fileID: 1202490861}
+  - {fileID: 1202490860}
+  - {fileID: 1202490859}
+  - {fileID: 1202490858}
+  - {fileID: 1202490857}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -921,7 +941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1172.2264
     y: -181.1617
-    width: 102
+    width: 105.76918
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1252,7 +1272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1531.417
     y: -205.27985
-    width: 101
+    width: 107.69226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1339,7 +1359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 751.1901
     y: -88.45487
-    width: 83
+    width: 86.53843
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1410,7 +1430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 585.9183
     y: -25.238739
-    width: 94
+    width: 98.07688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1475,7 +1495,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 976.40424
     y: -3.2272491
-    width: 89
+    width: 90.38458
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1561,23 +1581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: Charisma
+  key: charisma
   value: 5
---- !u!114 &1202490694
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: Var
-  value: 0
 --- !u!114 &1202490695
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2408,7 +2413,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.63065
     y: 67.8584
-    width: 107
+    width: 111.53841
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2437,7 +2442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 175.4988
     y: 33.1324
-    width: 106
+    width: 109.61533
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2465,7 +2470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432.60324
     y: 107.51639
-    width: 108
+    width: 111.53841
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2742,7 +2747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.5565
     y: 531.73334
-    width: 114
+    width: 119.230705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2858,7 +2863,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 883.42975
     y: 505.112
-    width: 163
+    width: 163.46144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3070,7 +3075,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 876.6845
     y: 434.45197
-    width: 149
+    width: 149.99991
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3231,7 +3236,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 889.0625
     y: 345.4134
-    width: 136
+    width: 136.53839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3337,7 +3342,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 910.88403
     y: 253.67746
-    width: 124
+    width: 124.99993
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3419,7 +3424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 990.20624
     y: 89.95729
-    width: 102
+    width: 103.84611
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3499,7 +3504,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 859.07404
     y: 95.65216
-    width: 101
+    width: 101.923035
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3608,7 +3613,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1120.67
     y: 95.930756
-    width: 103
+    width: 103.84611
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3774,7 +3779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.10913
     y: 371.93317
-    width: 154
+    width: 157.69221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3934,7 +3939,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.48692
     y: 282.89465
-    width: 141
+    width: 144.23068
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4117,7 +4122,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227.30833
     y: 191.15857
-    width: 129
+    width: 132.69223
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4802,6 +4807,171 @@ MonoBehaviour:
     stringVal: scene3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1202490857
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: hasInvis
+  value: 0
+--- !u!114 &1202490858
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: hasJavelinOrAxe
+  value: 0
+--- !u!114 &1202490859
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: hasTeleportSpell
+  value: 0
+--- !u!114 &1202490860
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: hasBow
+  value: 0
+--- !u!114 &1202490861
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: healingPotions
+  value: 0
+--- !u!114 &1202490862
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: damage
+  value: 0
+--- !u!114 &1202490864
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: isMale
+  value: 0
+--- !u!114 &1202490865
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: roleId
+  value: 0
+--- !u!114 &1202490866
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: stealth
+  value: 0
+--- !u!114 &1202490867
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: morality
+  value: 0
+--- !u!114 &1202490868
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: health
+  value: 0
 --- !u!1 &1222919023
 GameObject:
   m_ObjectHideFlags: 0
