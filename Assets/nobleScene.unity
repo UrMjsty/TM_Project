@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
+  nameText: '{$name}'
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -766,6 +766,7 @@ GameObject:
   - component: {fileID: 1202490938}
   - component: {fileID: 1202490928}
   - component: {fileID: 1202490884}
+  - component: {fileID: 1202490967}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -786,7 +787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -268.42487, y: 289.11523}
+  scrollPos: {x: 163.76482, y: 186.47015}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -797,8 +798,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1202490680}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1202490693}
@@ -815,6 +815,7 @@ MonoBehaviour:
   - {fileID: 1202490859}
   - {fileID: 1202490858}
   - {fileID: 1202490857}
+  - {fileID: 1202490967}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1985,7 +1986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 186
   indentLevel: 0
-  storyText: "There you are, Lord/Lady (Name). Did you get everything you\r require?"
+  storyText: "There you are, {$name}. Did you get everything you\r require?"
   description: 
   character: {fileID: 2029969771}
   portrait: {fileID: 0}
@@ -2130,7 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 0
-  storyText: Alright. Safe travels, Lord/Lady (NAME).
+  storyText: Alright. Safe travels, {$name}.
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -2159,7 +2160,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "That\u2019s everything I need from you.\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2321,7 +2322,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "What spells can you teach me?\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3052,7 +3053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: Alright! Good luck to you, Lord/Lady (NAME)
+  storyText: Alright! Good luck to you, {$name}
   description: 
   character: {fileID: 1948848302}
   portrait: {fileID: 0}
@@ -3792,9 +3793,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: "\u201CI am sure you are all wondering why I called for you today. A
-    great\r tragedy has befallen us. My beloved daughter, Princess Lenora, has been\r
-    captured by the great dragon Andarna."
+  storyText: "I am sure you are all wondering why I called for you today. A great\r
+    tragedy has befallen us. My beloved daughter, Princess Lenora, has been\r captured
+    by the great dragon Andarna."
   description: 
   character: {fileID: 2029969771}
   portrait: {fileID: 0}
@@ -4672,7 +4673,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 208
+  itemId: 346
   blockName: Wizard-(123)-1-2-3 (Copy) (Copy)
   description: 
   eventHandler: {fileID: 0}
@@ -5318,7 +5319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 259
   indentLevel: 0
-  storyText: Alright! Good luck to you, Lord/Lady (NAME)
+  storyText: Alright! Good luck to you, {$name}
   description: 
   character: {fileID: 1948848302}
   portrait: {fileID: 0}
@@ -5990,7 +5991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 253
   indentLevel: 0
-  storyText: Alright! Good luck to you, Lord/Lady (NAME)
+  storyText: Alright! Good luck to you, {$name}
   description: 
   character: {fileID: 1948848302}
   portrait: {fileID: 0}
@@ -7030,7 +7031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 330
   indentLevel: 0
-  storyText: Alright. Safe travels, Lord/Lady (NAME).
+  storyText: Alright. Safe travels, {$name}.
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -7059,7 +7060,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "That\u2019s everything I need from you.\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7115,7 +7116,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 208
+  itemId: 345
   blockName: Wizard-(123)-1-2-3 (Copy)
   description: 
   eventHandler: {fileID: 0}
@@ -7679,7 +7680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 324
   indentLevel: 0
-  storyText: Alright. Safe travels, Lord/Lady (NAME).
+  storyText: Alright. Safe travels, {$name}.
   description: 
   character: {fileID: 1671958419}
   portrait: {fileID: 0}
@@ -7708,7 +7709,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "That\u2019s everything I need from you.\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8092,7 +8093,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "What spells can you teach me?\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8584,7 +8585,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "What spells can you teach me?\r"
   description: 
-  character: {fileID: 1282937959}
+  character: {fileID: 469272588}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9748,57 +9749,21 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!1 &1282937958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1282937960}
-  - component: {fileID: 1282937959}
-  m_Layer: 0
-  m_Name: Character Noble-Wizard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1282937959
+--- !u!114 &1202490967
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1282937958}
+  m_GameObject: {fileID: 1202490658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Character Name
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
---- !u!4 &1282937960
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1282937958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  scope: 2
+  key: name
+  value: 
 --- !u!1 &1331567280
 GameObject:
   m_ObjectHideFlags: 0
