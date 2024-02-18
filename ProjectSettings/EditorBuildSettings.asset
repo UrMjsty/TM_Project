@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/nobleScene.unity
     guid: 9246762083a5d178ebf0d22401703a35
+  - enabled: 1
+    path: Assets/scene3.unity
+    guid: 5ff90c39998e38c4eacf3bd94152a4a1
   m_configObjects: {}
