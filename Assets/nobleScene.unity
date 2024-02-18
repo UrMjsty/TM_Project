@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 1202490970}
   - component: {fileID: 1202490969}
   - component: {fileID: 1202490968}
+  - component: {fileID: 1202490971}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -765,7 +766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 35.561108, y: 3.767972}
+  scrollPos: {x: 29.468193, y: 50.074135}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 501.59998
@@ -6128,6 +6129,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1202490921}
+  - {fileID: 1202490971}
   - {fileID: 1202490920}
   - {fileID: 1202490919}
   - {fileID: 1202490918}
@@ -8647,6 +8649,31 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1202490971
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 350
+  indentLevel: 0
+  text: What weapons can you give me?
+  description: 
+  targetBlock: {fileID: 1202490915}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1331567280
 GameObject:
   m_ObjectHideFlags: 0
