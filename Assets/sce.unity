@@ -2729,8 +2729,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1202490661}
+  selectedCommands:
+  - {fileID: 1202490660}
   variables:
   - {fileID: 1202490694}
   - {fileID: 1202490884}
@@ -2760,7 +2762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Welcome, to gameName challenger!
+  storyText: Welcome, to Lenora's Rescue challenger!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2787,7 +2789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1173.3693
+    x: 1172.3384
     y: -179.72021
     width: 103.608246
     height: 40
