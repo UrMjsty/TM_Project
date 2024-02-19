@@ -1895,8 +1895,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1202490661}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1202490694}
@@ -2232,7 +2231,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: Alexandr
+        stringVal: Lord Alexandr
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -2312,7 +2311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 983.49585
+    x: 984.49585
     y: -105.071884
     width: 74
     height: 40
@@ -3574,7 +3573,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: Corina
+        stringVal: Lady Corina
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -3686,7 +3685,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1202490902
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3708,7 +3707,7 @@ MonoBehaviour:
   resumeOnLoad: 1
 --- !u!114 &1202490903
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3723,7 +3722,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1202490904
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
