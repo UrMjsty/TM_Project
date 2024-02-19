@@ -1352,6 +1352,8 @@ GameObject:
   - component: {fileID: 1202490978}
   - component: {fileID: 1202490985}
   - component: {fileID: 1202490984}
+  - component: {fileID: 1202490987}
+  - component: {fileID: 1202490986}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1372,20 +1374,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2913.1313, y: 586.3514}
+  scrollPos: {x: -3665.6814, y: 274.10913}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.37000045
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1202490821}
   selectedCommands:
-  - {fileID: 1202490940}
+  - {fileID: 1202490986}
   variables:
   - {fileID: 1202490954}
   - {fileID: 1202490693}
@@ -1632,7 +1635,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5856.4795
     y: 519.03687
-    width: 74.324295
+    width: 73.636345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1660,7 +1663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5625.3037
     y: 556.41797
-    width: 77.02699
+    width: 75.45453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1688,7 +1691,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5504.3345
     y: 476.49683
-    width: 77.02699
+    width: 75.45453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1716,7 +1719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4996.3833
     y: 522.16986
-    width: 74.324295
+    width: 73.636345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1744,7 +1747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5330.1724
     y: 631.08844
-    width: 77.02699
+    width: 75.45453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1771,7 +1774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5467.8335
     y: 585.571
-    width: 77.02699
+    width: 75.45453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1799,7 +1802,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5242.0757
     y: 203.90715
-    width: 66.216194
+    width: 66.363625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1828,7 +1831,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5662.5723
     y: 184.07747
-    width: 68.9189
+    width: 68.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1932,7 +1935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5262.907
     y: 426.29852
-    width: 68.9189
+    width: 68.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2037,7 +2040,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5633.82
     y: 419.60785
-    width: 68.9189
+    width: 68.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2067,7 +2070,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4382.5684
     y: 401.57504
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2095,7 +2098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4227.6577
     y: 417.7332
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2123,7 +2126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4115.5596
     y: 415.45493
-    width: 71.6216
+    width: 69.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2151,7 +2154,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4053.0193
     y: 536.26495
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2180,7 +2183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3820.6877
     y: 559.3241
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2209,7 +2212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3680.3574
     y: 474.2943
-    width: 71.6216
+    width: 69.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2313,7 +2316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3893.8445
     y: 348.06503
-    width: 66.216194
+    width: 64.54544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2420,7 +2423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4227.8096
     y: 305.13416
-    width: 66.216194
+    width: 64.54544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2450,7 +2453,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4486.6064
     y: 244.22012
-    width: 66.216194
+    width: 64.54544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2554,7 +2557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3769.3018
     y: 160.36075
-    width: 114.864784
+    width: 113.636314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2634,7 +2637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5402.3306
     y: 69.13694
-    width: 82.43239
+    width: 82.72725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2722,7 +2725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4566.0444
     y: 44.15883
-    width: 114.864784
+    width: 113.636314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2735,8 +2738,10 @@ MonoBehaviour:
   - {fileID: 1202490924}
   - {fileID: 1202490764}
   - {fileID: 1202490763}
-  - {fileID: 1202490762}
+  - {fileID: 1202490987}
   - {fileID: 1202490985}
+  - {fileID: 1202490986}
+  - {fileID: 1202490762}
   - {fileID: 1202490822}
   - {fileID: 1202490761}
   - {fileID: 1202490984}
@@ -3507,7 +3512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3557.4033
     y: 557.50073
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3536,7 +3541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3408.453
     y: 592.95703
-    width: 74.324295
+    width: 71.81816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3566,7 +3571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3205.912
     y: 549.0338
-    width: 71.6216
+    width: 69.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3672,7 +3677,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3404.5298
     y: 372.95056
-    width: 66.216194
+    width: 64.54544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4103,7 +4108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5396.71
     y: 290.66748
-    width: 90.54049
+    width: 89.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4354,7 +4359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4977.629
     y: 218.69064
-    width: 68.9189
+    width: 68.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4607,7 +4612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4685.949
     y: 524.0087
-    width: 112.16209
+    width: 108.18178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8093,7 +8098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4077.9019
     y: 98.3441
-    width: 120.27019
+    width: 119.09086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8284,6 +8289,66 @@ MonoBehaviour:
   images:
   - {fileID: 529329954}
   sprite: {fileID: 21300000, guid: 3ca16e37b463e9344bc87dd4c03a7425, type: 3}
+--- !u!114 &1202490986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 355
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 529329952}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  fadeMode: 1
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
+--- !u!114 &1202490987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 354
+  indentLevel: 0
+  targetObjects:
+  - {fileID: 529329952}
+  tweenType: 2
+  waitUntilFinished:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  fadeMode: 1
+  targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0.21176471, g: 0.20784314, b: 0.42352942, a: 1}
+  targetAlpha:
+    floatRef: {fileID: 0}
+    floatVal: 1
 --- !u!1 &1324984020
 GameObject:
   m_ObjectHideFlags: 0
