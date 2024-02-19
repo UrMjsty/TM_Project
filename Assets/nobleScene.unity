@@ -614,8 +614,6 @@ GameObject:
   - component: {fileID: 1202490770}
   - component: {fileID: 1202490769}
   - component: {fileID: 1202490762}
-  - component: {fileID: 1202490761}
-  - component: {fileID: 1202490760}
   - component: {fileID: 1202490844}
   - component: {fileID: 1202490845}
   - component: {fileID: 1202490846}
@@ -738,6 +736,8 @@ GameObject:
   - component: {fileID: 1202491032}
   - component: {fileID: 1202491031}
   - component: {fileID: 1202491030}
+  - component: {fileID: 1202491040}
+  - component: {fileID: 1202491042}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -758,10 +758,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 202.42387, y: 285.40765}
+  scrollPos: {x: -278.77975, y: 46.409866}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 424
   zoom: 0.49874935
   scrollViewRect:
     serializedVersion: 2
@@ -772,7 +772,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1202490775}
   selectedCommands:
-  - {fileID: 1202490856}
+  - {fileID: 1202491040}
   variables:
   - {fileID: 1202490693}
   - {fileID: 1202490692}
@@ -842,7 +842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1172.2264
     y: -181.1617
-    width: 96.11535
+    width: 99.72438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1143,7 +1143,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1531.417
     y: -205.27985
-    width: 92.105316
+    width: 98.12036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1230,7 +1230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 751.1901
     y: -90.377945
-    width: 78.07021
+    width: 82.080246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1301,7 +1301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 587.8414
     y: -25.238739
-    width: 88.09529
+    width: 91.704315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1362,7 +1362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1329.6089
     y: -58.74896
-    width: 84.08526
+    width: 86.89227
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 316.3793
     y: 52.016792
-    width: 100.12538
+    width: 104.53641
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1737,7 +1737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 175.4988
     y: 33.1324
-    width: 100.12538
+    width: 104.53641
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1767,7 +1767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 475.25378
     y: 72.177444
-    width: 102.130394
+    width: 106.14043
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1781,62 +1781,6 @@ MonoBehaviour:
   - {fileID: 1202490979}
   - {fileID: 1202490978}
   suppressAllAutoSelections: 0
---- !u!114 &1202490760
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 198
-  indentLevel: 0
-  storyText: "Men head into the local tavern to\r drink, shops prepare to close for
-    the night and you find a comfortable inn to\r settle into for the night. "
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1202490761
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 197
-  indentLevel: 0
-  storyText: "Finally, in the early hours of the evening, you arrive at the quaint
-    town of\r Redrun. The people mill about their evenings."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1202490762
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1851,9 +1795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: "You bow, thanking the king and set on your way. You travel for the
-    next couple\r of hours, stopping to enjoy a delicious lunch that you packed in
-    your bag."
+  storyText: 'You bow, thanking the king and set on your way. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2020,7 +1962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 844.40753
     y: 604.09753
-    width: 106.14043
+    width: 112.55647
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2040,8 +1982,8 @@ MonoBehaviour:
   - {fileID: 1202490769}
   - {fileID: 1202490869}
   - {fileID: 1202490762}
-  - {fileID: 1202490761}
-  - {fileID: 1202490760}
+  - {fileID: 1202491042}
+  - {fileID: 1202491040}
   - {fileID: 1202490856}
   suppressAllAutoSelections: 0
 --- !u!114 &1202490779
@@ -2060,7 +2002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1456.0493
     y: 376.88736
-    width: 156.26581
+    width: 160.67683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2141,7 +2083,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 970.37854
     y: 180.95795
-    width: 142.2307
+    width: 146.24072
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2244,7 +2186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1098.8911
     y: 147.00676
-    width: 118.17052
+    width: 120.57653
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2301,7 +2243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1328.2767
     y: 36.549637
-    width: 96.11535
+    width: 99.72438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2383,7 +2325,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1189.1238
     y: 48.6606
-    width: 96.11535
+    width: 99.72438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2469,7 +2411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1450.7206
     y: 48.939194
-    width: 98.12036
+    width: 101.328384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2582,7 +2524,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 131.98378
     y: 503.40045
-    width: 146.24072
+    width: 151.05276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2613,7 +2555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -223.88748
     y: 221.12985
-    width: 134.21063
+    width: 138.22067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2968,7 +2910,7 @@ MonoBehaviour:
   itemId: 115
   indentLevel: 0
   storyText: "A hush falls over the room as the King enters and sits on the throne.
-    He looks\r tired and wear"
+    He looks\r tired and weary."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3700,7 +3642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1041.9032
     y: 236.05722
-    width: 214.41124
+    width: 223.2333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3728,7 +3670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1944.5353
     y: 280.4048
-    width: 228.44635
+    width: 237.66942
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3908,7 +3850,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 389.514
     y: 272.68826
-    width: 218.42128
+    width: 228.04535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4545,7 +4487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 219.39912
     y: 236.43689
-    width: 182.331
+    width: 189.54906
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4877,7 +4819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -58.74623
     y: 177.3386
-    width: 206.39119
+    width: 215.21324
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4904,7 +4846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -440.94794
     y: 188.70872
-    width: 170.3009
+    width: 176.71695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5388,7 +5330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1717.4792
     y: 249.54634
-    width: 192.35608
+    width: 199.17313
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5874,7 +5816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1322.4401
     y: 207.43465
-    width: 178.32097
+    width: 184.73701
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6804,7 +6746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -213.31647
     y: 164.34981
-    width: 158.27081
+    width: 163.88486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7432,7 +7374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 642.5132
     y: 228.11415
-    width: 188.34604
+    width: 195.9651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7859,7 +7801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2034.0945
     y: 177.35532
-    width: 234.4614
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8153,7 +8095,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1704.861
     y: 165.2977
-    width: 220.42628
+    width: 229.64935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8450,7 +8392,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1429.5331
     y: 508.41562
-    width: 198.37112
+    width: 205.58917
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8966,7 +8908,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.4875
     y: 585.2051
-    width: 188.34604
+    width: 195.9651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8982,6 +8924,51 @@ MonoBehaviour:
   - {fileID: 1202491033}
   - {fileID: 1202491032}
   suppressAllAutoSelections: 0
+--- !u!114 &1202491040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 439
+  indentLevel: 0
+  storyText: "You travel for the next couple\r of hours, stopping to enjoy a delicious
+    lunch that you packed in your bag."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1202491042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e4c082f762243f6943909a4272096d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 440
+  indentLevel: 0
+  images:
+  - {fileID: 183177430}
+  sprite: {fileID: 21300000, guid: fc185284664920a45b6eb2723f20ae69, type: 3}
 --- !u!1 &1331567280
 GameObject:
   m_ObjectHideFlags: 0
