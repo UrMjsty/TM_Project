@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Witch
-  nameColor: {r: 0.600397, g: 0.8792453, b: 0.19077952, a: 1}
+  nameText: 'Old Helga The Town Witch '
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 4b04b968f1f73289a96c447b1a0b12f4, type: 3}
@@ -204,8 +204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Blacksmith
-  nameColor: {r: 0.600397, g: 0.8792453, b: 0.19077952, a: 1}
+  nameText: Ivan The Blacksmith
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 6a3c1d7ce563fbe9786ec7429727acf7, type: 3}
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Guard
-  nameColor: {r: 0.7490196, g: 0.7568628, b: 0.2509804, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 5d24f46348f852159b71aa29fe6efdeb, type: 3}
@@ -400,86 +400,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &790609282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 790609283}
-  - component: {fileID: 790609285}
-  - component: {fileID: 790609284}
-  m_Layer: 5
-  m_Name: charisma
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &790609283
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790609282}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1783266907}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000091327, y: -5.524}
-  m_SizeDelta: {x: 756.97, y: 147.71}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &790609284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790609282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 81
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 140
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Charisma:'
---- !u!222 &790609285
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790609282}
-  m_CullTransparentMesh: 1
 --- !u!1 &926155443
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,8 +505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Innkeeper
-  nameColor: {r: 0.600397, g: 0.8792453, b: 0.19077952, a: 1}
+  nameText: ' Molly The Innkeeper'
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b024ac2f97aaeef82a57d3d44fa049c0, type: 3}
@@ -780,10 +700,8 @@ GameObject:
   - component: {fileID: 1202490817}
   - component: {fileID: 1202490816}
   - component: {fileID: 1202490813}
-  - component: {fileID: 1202490806}
   - component: {fileID: 1202490804}
   - component: {fileID: 1202490803}
-  - component: {fileID: 1202490802}
   - component: {fileID: 1202490801}
   - component: {fileID: 1202490799}
   - component: {fileID: 1202490797}
@@ -835,7 +753,6 @@ GameObject:
   - component: {fileID: 1202490835}
   - component: {fileID: 1202490836}
   - component: {fileID: 1202490833}
-  - component: {fileID: 1202490868}
   - component: {fileID: 1202490867}
   - component: {fileID: 1202490866}
   - component: {fileID: 1202490865}
@@ -896,8 +813,6 @@ GameObject:
   - component: {fileID: 1202490905}
   - component: {fileID: 1202490904}
   - component: {fileID: 1202490903}
-  - component: {fileID: 1202490922}
-  - component: {fileID: 1202490921}
   - component: {fileID: 1202490923}
   - component: {fileID: 1202490918}
   - component: {fileID: 1202490920}
@@ -917,14 +832,12 @@ GameObject:
   - component: {fileID: 1202490928}
   - component: {fileID: 1202490927}
   - component: {fileID: 1202490938}
-  - component: {fileID: 1202490939}
   - component: {fileID: 1202490941}
   - component: {fileID: 1202490940}
   - component: {fileID: 1202490946}
   - component: {fileID: 1202490943}
   - component: {fileID: 1202490942}
   - component: {fileID: 1202490947}
-  - component: {fileID: 1202490949}
   - component: {fileID: 1202490950}
   - component: {fileID: 1202490948}
   - component: {fileID: 1202490952}
@@ -949,6 +862,15 @@ GameObject:
   - component: {fileID: 1202490954}
   - component: {fileID: 1202490971}
   - component: {fileID: 1202490953}
+  - component: {fileID: 1202490973}
+  - component: {fileID: 1202490976}
+  - component: {fileID: 1202490977}
+  - component: {fileID: 1202490983}
+  - component: {fileID: 1202490982}
+  - component: {fileID: 1202490981}
+  - component: {fileID: 1202490980}
+  - component: {fileID: 1202490979}
+  - component: {fileID: 1202490978}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -969,11 +891,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -3190.3154, y: 95.19377}
+  scrollPos: {x: -2803.042, y: 70.690445}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
-  zoom: 0.49000046
+  blockViewHeight: 377
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -981,9 +903,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1202490863}
-  selectedCommands:
-  - {fileID: 1202490882}
+  - {fileID: 1202490861}
+  selectedCommands: []
   variables:
   - {fileID: 1202490954}
   - {fileID: 1202490693}
@@ -1230,7 +1151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5856.4795
     y: 519.03687
-    width: 74.48978
+    width: 74.13792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1258,7 +1179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5625.3037
     y: 556.41797
-    width: 74.48978
+    width: 75.86205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1286,7 +1207,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5504.3345
     y: 476.49683
-    width: 76.12242
+    width: 77.58619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1314,7 +1235,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4996.3833
     y: 522.16986
-    width: 74.48978
+    width: 74.13792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1342,7 +1263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5330.1724
     y: 631.08844
-    width: 74.48978
+    width: 75.86205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1369,7 +1290,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5467.8335
     y: 585.571
-    width: 76.12242
+    width: 77.58619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1397,7 +1318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5242.0757
     y: 203.90715
-    width: 66.326515
+    width: 65.51723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1426,7 +1347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5662.5723
     y: 184.07747
-    width: 66.326515
+    width: 67.24136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1530,7 +1451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5262.907
     y: 426.29852
-    width: 67.95917
+    width: 68.9655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1635,7 +1556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5633.82
     y: 419.60785
-    width: 67.95917
+    width: 68.9655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1665,7 +1586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4382.5684
     y: 401.57504
-    width: 71.22447
+    width: 72.41378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1693,7 +1614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4227.6577
     y: 417.7332
-    width: 69.59182
+    width: 70.68964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1721,7 +1642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4115.5596
     y: 415.45493
-    width: 69.59182
+    width: 68.9655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1749,7 +1670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4053.0193
     y: 536.26495
-    width: 72.857124
+    width: 74.13792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1778,7 +1699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3820.6877
     y: 559.3241
-    width: 71.22447
+    width: 72.41378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1807,7 +1728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3680.3574
     y: 474.2943
-    width: 71.22447
+    width: 70.68964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1859,8 +1780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  text: "At least I\u2019m trying. Everyone else is just sitting around\ndoing nothing.
-    (- 1 Morality)"
+  text: "At least I\u2019m trying. Everyone else is just sitting around\ndoing nothing. "
   description: 
   targetBlock: {fileID: 1202490788}
   hideIfVisited: 0
@@ -1885,7 +1805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  text: "Don\u2019t underestimate me, Ivan. (+ 1 Speech)"
+  text: "Don\u2019t underestimate me, Ivan. "
   description: 
   targetBlock: {fileID: 1202490789}
   hideIfVisited: 0
@@ -1912,7 +1832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3893.8445
     y: 348.06503
-    width: 64.69386
+    width: 65.51723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1921,6 +1841,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1202490976}
   - {fileID: 1202490860}
   - {fileID: 1202490859}
   - {fileID: 1202490792}
@@ -2018,7 +1939,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4227.8096
     y: 305.13416
-    width: 63.06121
+    width: 63.793095
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2048,7 +1969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4486.6064
     y: 244.22012
-    width: 63.06121
+    width: 63.793095
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2078,31 +1999,6 @@ MonoBehaviour:
   text: Can I borrow some armor?
   description: 
   targetBlock: {fileID: 1202490797}
-  hideIfVisited: 1
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &1202490802
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 143
-  indentLevel: 0
-  text: "I\u2019m going to save the princess."
-  description: 
-  targetBlock: {fileID: 1202490793}
   hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
@@ -2161,34 +2057,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1202490806
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 139
-  indentLevel: 0
-  storyText: "You make your way down to Ivan\u2019s forge, and find him working on
-    a beautiful sword."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 0
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1202490813
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2203,9 +2071,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3848.6965
-    y: 165.53316
-    width: 110.40811
+    x: 3769.3018
+    y: 160.36075
+    width: 112.068924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2214,16 +2082,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1202490922}
-  - {fileID: 1202490949}
-  - {fileID: 1202490921}
-  - {fileID: 1202490939}
-  - {fileID: 1202490806}
-  - {fileID: 1202490868}
-  - {fileID: 1202490802}
   - {fileID: 1202490801}
   - {fileID: 1202490803}
   - {fileID: 1202490804}
+  - {fileID: 1202490973}
   suppressAllAutoSelections: 0
 --- !u!114 &1202490816
 MonoBehaviour:
@@ -2239,7 +2101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  text: "Do you think I can\u2019t do it? Because I can! (- 1 Morality)"
+  text: "Do you think I can\u2019t do it? Because I can! "
   description: 
   targetBlock: {fileID: 1202490775}
   hideIfVisited: 1
@@ -2264,7 +2126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  text: "Don\u2019t worry, I can handle myself. (+ 1 Speech)"
+  text: "Don\u2019t worry, I can handle myself. "
   description: 
   targetBlock: {fileID: 1202490774}
   hideIfVisited: 1
@@ -2291,7 +2153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5402.3306
     y: 69.13694
-    width: 81.02038
+    width: 81.03446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2354,7 +2216,7 @@ MonoBehaviour:
   indentLevel: 0
   text: To Ivan the blacksmith
   description: 
-  targetBlock: {fileID: 1202490813}
+  targetBlock: {fileID: 1202490977}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2379,7 +2241,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4566.0444
     y: 44.15883
-    width: 108.77546
+    width: 110.34479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2511,7 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 206
   indentLevel: 0
-  storyText: "And go by Old Helga\u2019s. Maybe she ahs a potion or two to aid you
+  storyText: "And go by Old Helga\u2019s. Maybe she has a potion or two to aid you
     in your quest."
   description: 
   character: {fileID: 932542890}
@@ -3160,9 +3022,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3557.72
+    x: 3557.4033
     y: 557.50073
-    width: 72.857124
+    width: 74.13792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3189,9 +3051,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3406.7288
+    x: 3408.453
     y: 592.95703
-    width: 71.22447
+    width: 72.41378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3221,7 +3083,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3205.912
     y: 549.0338
-    width: 71.22447
+    width: 70.68964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3327,7 +3189,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3404.5298
     y: 372.95056
-    width: 64.69386
+    width: 65.51723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3341,33 +3203,6 @@ MonoBehaviour:
   - {fileID: 1202490865}
   - {fileID: 1202490864}
   suppressAllAutoSelections: 0
---- !u!114 &1202490868
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 229
-  indentLevel: 0
-  storyText: Good morning, {$name}. What can I help you with?
-  description: 
-  character: {fileID: 238448864}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: ffec03d6eb3cdcea5ba395a98ff19041, type: 3}
-  showAlways: 0
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1202490872
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3784,8 +3619,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 5396.71
-    y: 292.59055
-    width: 85.918335
+    y: 290.66748
+    width: 87.93101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4036,7 +3871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4977.629
     y: 218.69064
-    width: 66.326515
+    width: 67.24136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4289,7 +4124,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4685.949
     y: 524.0087
-    width: 102.24485
+    width: 105.17238
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4379,7 +4214,7 @@ MonoBehaviour:
   indentLevel: 0
   text: To Ivan the blacksmith
   description: 
-  targetBlock: {fileID: 1202490813}
+  targetBlock: {fileID: 1202490977}
   hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
@@ -4437,38 +4272,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 304
-  indentLevel: 0
---- !u!114 &1202490921
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 301
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 0787ba7804dd48d94b8da0795158d2c5, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
---- !u!114 &1202490922
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 300
   indentLevel: 0
 --- !u!114 &1202490923
 MonoBehaviour:
@@ -4715,36 +4518,6 @@ MonoBehaviour:
   scope: 2
   key: name
   value: 
---- !u!114 &1202490939
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 309
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 238448864}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6a3c1d7ce563fbe9786ec7429727acf7, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1126957902}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &1202490940
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4929,23 +4702,6 @@ MonoBehaviour:
   images:
   - {fileID: 529329954}
   sprite: {fileID: 21300000, guid: ff2dd997f1302ba48b2f0401a4d57405, type: 3}
---- !u!114 &1202490949
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202490658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82e4c082f762243f6943909a4272096d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 318
-  indentLevel: 0
-  images:
-  - {fileID: 529329954}
-  sprite: {fileID: 21300000, guid: 06c1e45c8fb434846803cf8ca1e7fa23, type: 3}
 --- !u!114 &1202490950
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6436,7 +6192,7 @@ MonoBehaviour:
   itemId: 326
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1202490954}
+    variable: {fileID: 1202490933}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -6467,7 +6223,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 2
+        integerVal: 35
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -7500,7 +7256,7 @@ MonoBehaviour:
   itemId: 340
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1202490954}
+    variable: {fileID: 1202490933}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -7531,7 +7287,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 2
+        integerVal: 50
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -7789,86 +7545,228 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!1 &1222919023
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222919024}
-  - component: {fileID: 1222919026}
-  - component: {fileID: 1222919025}
-  m_Layer: 5
-  m_Name: power
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1222919024
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222919023}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2122580672}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024872, y: 0.0032339}
-  m_SizeDelta: {x: 596.04, y: 136.65}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1222919025
+--- !u!114 &1202490973
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222919023}
+  m_GameObject: {fileID: 1202490658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.04150939, g: 0.032189354, b: 0.032189354, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 81
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 81
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Power:'
---- !u!222 &1222919026
-CanvasRenderer:
-  m_ObjectHideFlags: 0
+  itemId: 341
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &1202490976
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222919023}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 344
+  indentLevel: 0
+  storyText: "I\u2019m going to save the princess."
+  description: 
+  character: {fileID: 1669682920}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1202490977
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4077.9019
+    y: 98.3441
+    width: 115.5172
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 345
+  blockName: blacksmith1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1202490983}
+  - {fileID: 1202490982}
+  - {fileID: 1202490981}
+  - {fileID: 1202490980}
+  - {fileID: 1202490979}
+  - {fileID: 1202490978}
+  suppressAllAutoSelections: 0
+--- !u!114 &1202490978
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 351
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1202490793}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1202490979
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 350
+  indentLevel: 0
+  storyText: Good morning, {$name}. What can I help you with?
+  description: 
+  character: {fileID: 238448864}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ffec03d6eb3cdcea5ba395a98ff19041, type: 3}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1202490980
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 349
+  indentLevel: 0
+  storyText: "You make your way down to Ivan\u2019s forge, and find him working on
+    a beautiful sword."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1202490981
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 348
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 238448864}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a3c1d7ce563fbe9786ec7429727acf7, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1126957902}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1202490982
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 347
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: d761f7ed471c50b4a8a0b53863f8d2c7, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1202490983
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202490658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e4c082f762243f6943909a4272096d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 346
+  indentLevel: 0
+  images:
+  - {fileID: 529329954}
+  sprite: {fileID: 21300000, guid: 06c1e45c8fb434846803cf8ca1e7fa23, type: 3}
 --- !u!1 &1331567280
 GameObject:
   m_ObjectHideFlags: 0
@@ -8011,163 +7909,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1586184627
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1586184628}
-  - component: {fileID: 1586184630}
-  - component: {fileID: 1586184629}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1586184628
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586184627}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1635936196}
-  m_Father: {fileID: 2092486292}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 907, y: 531.67}
-  m_SizeDelta: {x: 595.99, y: 136.66}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1586184629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586184627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.7209238, g: 0.27845496, b: 0.97735846, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1586184630
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586184627}
-  m_CullTransparentMesh: 1
---- !u!1 &1635936195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1635936196}
-  - component: {fileID: 1635936198}
-  - component: {fileID: 1635936197}
-  m_Layer: 5
-  m_Name: magic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1635936196
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635936195}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1586184628}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0000038147}
-  m_SizeDelta: {x: 595.99, y: 117.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1635936197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635936195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.010252588, g: 0.008351693, b: 0.01132071, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 81
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 8
-    m_MaxSize: 81
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Magic:'
---- !u!222 &1635936198
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635936195}
-  m_CullTransparentMesh: 1
 --- !u!1 &1663841305
 GameObject:
   m_ObjectHideFlags: 0
@@ -8282,7 +8023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: '{$name}'
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -8378,83 +8119,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757648382}
-  m_CullTransparentMesh: 1
---- !u!1 &1783266906
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1783266907}
-  - component: {fileID: 1783266909}
-  - component: {fileID: 1783266908}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1783266907
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783266906}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 790609283}
-  m_Father: {fileID: 2092486292}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -892.4702, y: 531.67}
-  m_SizeDelta: {x: 756.97, y: 136.66}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1783266908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783266906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.34148094, g: 0.82641506, b: 0.35251567, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1783266909
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783266906}
   m_CullTransparentMesh: 1
 --- !u!1 &2035975843
 GameObject:
@@ -8570,9 +8234,6 @@ RectTransform:
   - {fileID: 2035975844}
   - {fileID: 1181654853}
   - {fileID: 1757648383}
-  - {fileID: 1783266907}
-  - {fileID: 2122580672}
-  - {fileID: 1586184628}
   m_Father: {fileID: 1331567282}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8655,80 +8316,3 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &2122580671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2122580672}
-  - component: {fileID: 2122580674}
-  - component: {fileID: 2122580673}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2122580672
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122580671}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1222919024}
-  m_Father: {fileID: 2092486292}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 531.66986}
-  m_SizeDelta: {x: 596.03, y: 136.66}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2122580673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122580671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.9169811, g: 0.2681736, b: 0.46398357, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2122580674
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122580671}
-  m_CullTransparentMesh: 1
