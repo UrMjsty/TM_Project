@@ -1382,7 +1382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -3408.8484, y: 229.16603}
+  scrollPos: {x: -3713.1882, y: 321.553}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -1394,10 +1394,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1202490977}
-  selectedCommands:
-  - {fileID: 1202490991}
-  - {fileID: 1202490990}
+  - {fileID: 1202490821}
+  selectedCommands: []
   variables:
   - {fileID: 1202490954}
   - {fileID: 1202490693}
@@ -2191,7 +2189,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 3820.6877
-    y: 559.3241
+    y: 560.81665
     width: 71.739105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2565,7 +2563,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 3770.5212
-    y: 157.10042
+    y: 155.67184
     width: 110.86951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3324,7 +3322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 243
   indentLevel: 0
-  storyText: "This what I have available. I\u2019d advise you to choose\nwisely."
+  storyText: "This what I have available. I\u2019d advise you to choose wisely."
   description: 
   character: {fileID: 238448864}
   portrait: {fileID: 0}
@@ -3351,9 +3349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 242
   indentLevel: 0
-  storyText: 'I hear the beast
-
-    breathes fire, and I can tell you from experience,
+  storyText: 'I hear the beast breathes fire, and I can tell you from experience,
     a burn is not
 
     something you want to experience.'
@@ -3383,8 +3379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 241
   indentLevel: 0
-  storyText: "I did. Quite a sight, wasn\u2019t it? If I can give you one\npiece
-    of advice, stay away from their mouth."
+  storyText: "I did. Quite a sight, wasn\u2019t it? If I can give you one piece of
+    advice, stay away from their mouth."
   description: 
   character: {fileID: 238448864}
   portrait: {fileID: 0}
@@ -3411,10 +3407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 240
   indentLevel: 0
-  storyText: 'Everyone else has a thing called self preservation,
-
-    but who am
-    I to stop you.'
+  storyText: Everyone else has a thing called self preservation, but who am I to
+    stop you.
   description: 
   character: {fileID: 238448864}
   portrait: {fileID: 0}
@@ -3772,9 +3766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 259
   indentLevel: 0
-  storyText: 'Settle down, child. I only wish to spare you
-
-    unnecessary harm.'
+  storyText: Settle down, child. I only wish to spare you unnecessary harm.
   description: 
   character: {fileID: 235817747}
   portrait: {fileID: 0}
@@ -4120,7 +4112,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 5396.71
-    y: 290.66748
+    y: 292.16
     width: 86.95648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4399,10 +4391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 296
   indentLevel: 0
-  storyText: 'You wake up in the morning, awake and ready to head off on
-
-    your
-    adventure. You hug your mom goodbye, grab all your gear and set off on your journey.'
+  storyText: You wake up in the morning, awake and ready to head off on your adventure.
+    You hug your mom goodbye, grab all your gear and set off on your journey.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4566,9 +4556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 290
   indentLevel: 0
-  storyText: 'There you are, {$name}. Did you gather everything you
-
-    needed?'
+  storyText: There you are, {$name}. Did you gather everything you needed?
   description: 
   character: {fileID: 932542890}
   portrait: {fileID: 0}
