@@ -763,7 +763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0024643, y: -608.3175}
+  m_AnchoredPosition: {x: -0.0024643, y: -516.1}
   m_SizeDelta: {x: 1061, y: 860.625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037026929
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 22
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -812,12 +812,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "For your entertainment, \nLos Santos Vagos presented \n\"Lenora's Rescue\"\nA
-    game created through blood sweat and tears (and a few sleepless nights).\n\nCredits:\n\nDevelopers:\nCiornii
-    Alexandru\nBujilov Dmitrii\nCravcenco Dmitrii\n\nScript written by:\nErnu Catalina\n\nCharacter
-    and Background Art by:\nDeep AI \nin colaboration with \nDoni Corina\n&\nErnu
-    Catalina\n\nMusic by:\na bunch of coryright free websites\n\nDemo music by:\nRe:Zero
-    and that one meme with blacksmith Gnomes"
+  m_Text: "For your entertainment, \nLos Santos Vagos presented \n<b>\n\"Lenora's
+    Rescue\"\n</b>\nA game created through blood sweat and tears (and a few sleepless
+    nights).\n\nCredits:\n\nDevelopers:\n<b>Ciornii Alexandru\nBujilov Dmitrii\nCravcenco
+    Dmitrii</b>\n\nScript written by:<b>\nErnu Catalina </b>\n\nCharacter and Background
+    Art by:\nDeep AI \nin colaboration with <b>\nDoni Corina\n&\nErnu Catalina\n</b>\nMusic
+    by:\na bunch of coryright free websites\n\nDemo music by:\nRe:Zero and that one
+    meme with blacksmith Gnomes"
 --- !u!222 &2037026931
 CanvasRenderer:
   m_ObjectHideFlags: 0

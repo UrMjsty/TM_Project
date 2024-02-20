@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/nobleInkeeper.unity
     guid: ed18341159a5f754598a42a306e8966b
+  - enabled: 1
+    path: Assets/final.unity
+    guid: bd0af4df7128e8ef9a8ddbe32229dae8
   m_configObjects: {}

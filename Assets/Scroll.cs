@@ -16,7 +16,6 @@ public class Scroll : MonoBehaviour
     {
         _myTransform = gameObject.GetComponent<RectTransform>();
         StartCoroutine(Wait(2));
-        StartCoroutine(AutoScroll());
     }
 
     // Update is called once per frame
@@ -27,14 +26,17 @@ public class Scroll : MonoBehaviour
     IEnumerator Wait(int sec)
     {
         yield return new WaitForSeconds(sec);
+        StartCoroutine(AutoScroll());
 
     }
     IEnumerator AutoScroll()
     {
-        while (true)
+        while (_myTransform.localPosition.y < 1000)
         {
             _myTransform.Translate(Vector3.up * (_speed * Time.deltaTime));
+            yield return null;
+
         }
-        yield return null;
+
     }
 }
